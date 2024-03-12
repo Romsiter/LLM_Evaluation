@@ -12,3 +12,6 @@ The evaluate_sql_generation1 method is utilized for evaluating the accuracy and 
 To correctly run the code for evaluating LLM-generated SQL queries, follow these steps:
 Input your OpenAI's API key.
 Write your question in the textual_query variable.
+
+##LLM_Evaluation_PromptInjection
+This Notebook contains code which checks for the prompt injection in the database and sanitize the prompt given by user to remove harmful elements using llm_guard.
