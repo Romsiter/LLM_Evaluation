@@ -13,5 +13,5 @@ To correctly run the code for evaluating LLM-generated SQL queries, follow these
 Input your OpenAI's API key.
 Write your question in the textual_query variable.
 
-##LLM_Evaluation_PromptInjection
+## LLM_Evaluation_PromptInjection
 This Notebook contains code which checks for the prompt injection in the database and sanitize the prompt given by user to remove harmful elements using llm_guard.
